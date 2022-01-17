@@ -1,10 +1,18 @@
 // Creer une fonction qui prends en argument deux nombres et qui retourne la division du premier par le deuxieme
-
+function Division(a, b){
+    a = a / b;
+    return a;
+}
 // Creer une fonction
 // Afficher le contenu d'un tableau de nombre dans une chaine de caractere avec une limite de 5 nombres affichés (dans la console)
 // Exemple [2,4,5] => affiche "2 4 5"
 // Exemple [2,4,5,7,9,34,7] => affiche "2 4 5 7 9"
-
+const Tableau = [1, 4, 5]
+function showAray() {
+    for(var i = 0; i < 5; i++){
+        console.log(Tableau[i]);
+    }
+}
 // Creer une fonction
 // Afficher le contenu d'un tableau de nombre dans une chaine de caractere avec une limite de 15 caracteres affichés 
 // (dans la console, les espaces comptent)
@@ -14,16 +22,36 @@
 
 // Creer une fonction qui retourne la moyenne d'un tableau de nombre passé en argument
 // Exemple f([2,3,4]) retournera 3
-
+let count = 0;
+function Moyenne(tab) {
+    for(var i = 0; i < tab.length; i++){
+        count = count + tab[i];
+    }
+    count = count / tab.length;
+    return count;
+}
 // Creer une fonction qui prend un tableau de nombre en argument et un nombre X
 // qui retournera un tableau dans lequel on ajoute X  au elements du tableau d'origine
 // Exemple f([3, 7, 2], 1) retournera [4,8,3]
 // Exemple f([12, 4, 65], 10) retournera [22, 14, 75]
-
+function addOne(tab, x){
+    for(let i = 0; i < tab.length; i++){
+        tab[i] = tab[i] + x;
+    }
+    return tab;
+}
 // Creer une fonction qui prend en argument un tableau de nombre
 // qui retourne un tableau contenant uniquement les nombres supérieur ou egal à 18
 // Exemple f([2,6,12,32,42,65]) retournera [12, 32, 42, 65]
-
+function NbSup(tab){
+    let tab2  = [];
+    for(let i = 0; i < tab.length; i++){
+        if(tab[i] > 18){
+            tab2.push(tab[i]);
+        }
+    }
+    return tab2;
+}
 // Creer une foncion prend en argument deux tableaux
 // vous passerez une chaine de caractere appelée mode qui modifiera le resultat
 //
@@ -34,6 +62,23 @@
 // si mode est "intersection"
 // la fonction retourne les valeurs du premier tableau qui sont dans le deuxieme
 // exemple f([2, 1], [2, 3]) retounera [2]
+function test(tab1, tab2, mode){
+    let tab3 = [];
+    if(mode === 'difference'){
+        for(let i = 0; i < tab1.length; i++){
+            for(let j = 0; j < tab2.length; j++){
+                if(tab1[i] = tab2[j]){
+                    tab3.push(tab1[i]);
+                }
+            }
+        }
+    } 
+    else if(mode === 'intersection'){
+        console.log('inter')
+    }
+    return tab3;
+}
+
 
 
 const words = [
