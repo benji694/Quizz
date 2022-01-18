@@ -1,0 +1,10 @@
+Vous devez réaliser un Quizz qui se rapproche le plus des capture d'ecran
+Lorsque vous cliquez sur valider vos choix les cases avec les réponses changent de couleur
+selon si la réponse est bonne ou non et un score s'affichera en bas de l'ecran
+
+Vous êtes libre d'utiliser un framework CSS
+vous devez utiliser le html: le javascript ne servira qu'a la logique du jeu
+
+Vous êtes libre de choisir vos questions (maximum 10)
+mais elle doivent avoir un rapport avec ce que vous avez vu 
+en cours de math / science  
