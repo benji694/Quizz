@@ -72,7 +72,7 @@ function test(tab1, tab2, mode){
                 }
             }
         }
-    } 
+    }
     else if(mode === 'intersection'){
         console.log('inter')
     }
