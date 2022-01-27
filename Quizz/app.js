@@ -37,7 +37,8 @@ function results() {
         p2.textContent = "Retente une autre réponse dans les cases rouges, puis re-valide !";
     }
     else {
-        p1.textContent = "Exellent, un parcour sans fautes !!!"
+        p1.textContent = "Exellent, un parcour sans fautes !!!";
+        p2.textContent = ""
     }
     p3.textContent = note + "/" + Color.length;
 }
