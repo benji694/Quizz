@@ -1,0 +1,60 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: url(/img/900_Shamudy_math-linear-mathematics-education-circle-background.jpg);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(/img/fond-g-om-trique-carreaux-avec-les-lignes-bleues-feuille-de-carnet-d-cole-vecteur-illustration-147931655.jpg);
+    padding: 2em;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 5em;
+}
+.questions{
+    text-align: left;
+    box-shadow: 0px 0px 15px 4px #000000;
+    border-radius: 2em;
+    margin: 5em;
+    padding: 2em;
+    transition: 0.2s;
+    background-color: white;
+}
+.questions:hover{
+    transform: scale(1.02);
+}
+.reponses li{
+    display: flex;
+}
+h3{
+    margin-bottom: 1em;
+}
+
+input{
+    margin-right: 1em;
+}
+
+#BtnValider{
+    padding: 1.5em 4em;
+    background-color: #75DA5A;
+    margin-bottom: 2em;
+    border-radius: 2em;
+}
+#note{
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0px 0px 15px 4px #000000;
+}
+#trajectoire{
+    width: 20em;
+}
